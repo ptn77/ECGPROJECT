@@ -123,7 +123,7 @@ def create_doc(report_text, ecg_image):
     return file_stream
 
 def main():
-    st.title("Electrocardiogram Analysis Using Google AI Generative Model API")
+    st.title("Electrocardiogram Analysis Using AI Generative Model API")
 
     st.header("Attachments")
     ecg_image = st.file_uploader("Upload ECG Image", type=["png", "jpg", "jpeg"])
